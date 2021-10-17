@@ -1,6 +1,10 @@
 import random
 
-r = random.randint(1, 100)
+start = eval(input('請輸入隨機數字開始值：'))
+end = eval(input('請輸入隨機數字結束值：'))
+
+r = random.randint(start, end)
+
 count = 0
 while True:
     count+=1
